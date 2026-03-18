@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://love-app-black.vercel.app"),
+
   title: "Will you be mine? 💍❤️",
   description: "I made something special for you… don’t overthink, just answer 💖",
+
   icons: {
     icon: "/favicon.svg",
   },
@@ -22,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Will you be mine? 💍❤️",
     description: "You can’t click NO 😈💖",
-    url: "https://love-app-black.vercel.app/", 
+    url: "https://love-app-black.vercel.app/",
     siteName: "Purnendu's Love Game",
     images: [
       {
@@ -40,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Will you be mine? 💍❤️",
     description: "Try this… but answer honestly 😏💖",
-    images: ["/preview.png"],
+    images: ["/preview.png"], // ✅ fixed
   },
 };
 
