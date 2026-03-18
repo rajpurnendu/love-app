@@ -197,9 +197,9 @@ export default function Home() {
           </p>
 
           <h1 className="text-lg md:text-2xl font-semibold mb-6 whitespace-pre-line text-gray-800 leading-relaxed">
-            {`Hey… it’s Purnendu 😎  
-I think I like you 💖  
-Do you like me too? 👀`}
+            {`Hey… it's Purnendu ❤️  
+I think I fell for you 💖  
+Will you be mine? 💍`}
           </h1>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -251,7 +251,8 @@ Do you like me too? 👀`}
           <h1 className="text-2xl font-bold text-green-600 mb-4">🎉 YES! 🎉</h1>
 
           <p className="mb-4 text-sm md:text-base text-gray-600">
-            You made Purnendu very happy 😄💖
+            {`You just made me really happy 🥺💖  
+Let’s make this something beautiful ❤️`}
           </p>
 
           <button
